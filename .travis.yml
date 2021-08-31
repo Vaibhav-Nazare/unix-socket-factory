@@ -1,8 +1,6 @@
 arch : ppc64le
-sudo: false
 language: java
-jdk: openjdk7
-install: yum install -y java
+jdk: openjdk8
 
 env:
   global:
